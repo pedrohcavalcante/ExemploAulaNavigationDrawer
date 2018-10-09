@@ -4,10 +4,11 @@ import android.content.Context;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Planet {
+public class Planet implements Serializable {
     private String name;
     private int imageId;
 
